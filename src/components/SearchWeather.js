@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./styles.css";
 import axios from "axios";
 import { HiSearch } from "react-icons/hi";
-import api_key from "../Api";
 function SearchWeather() {
   const [search, setSearch] = useState("Raigarh");
   const [data, setData] = useState({
@@ -29,7 +28,7 @@ function SearchWeather() {
   const handleClick = () => {
     axios
       .get(
-        `https://api.openweathermap.org/data/2.5/weather?q=${search}&appid=${api_key}`
+        `https://api.openweathermap.org/data/2.5/weather?q=${search}&appid=4def7d9467c18d3c6cb3813e7075c7a6`
       )
       .then((response) => {
         console.log(response.data);
