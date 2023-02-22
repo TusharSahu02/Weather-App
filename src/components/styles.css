@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.row1,
+.row2 {
+  height: 80vh;
+  width: 30vw;
+  background-color: rgba(26, 28, 28, 0.507);
+}
+
+.row1 {
+  border-radius: 30px 0 0 30px;
+  background: url(../images/city.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  flex-direction: column;
+}
+.row2 {
+  border-radius: 0 30px 30px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  color: white;
+  text-align: end;
+  text-align: center;
+}
+
+.row1 p {
+  color: white;
+  margin-top: 40px;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.row1 #deg {
+  margin-top: 0;
+  font-size: 8rem;
+}
+
+input {
+  width: 93%;
+  border: none;
+  padding: 10px;
+  border-radius: 30px;
+  padding-left: 15px;
+}
+.searchCity {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  background-color: white;
+  border-radius: 30px;
+  align-items: center;
+  border: 1px solid black;
+}
+
+#searchBtn {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.icon_ {
+  height: 250px;
+}
+
+.searchBtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#details {
+  font-size: 20px;
+  width: 90%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  font-family: "Kanit", sans-serif;
+}
+#main_des {
+  font-size: 40px;
+  font-style: bold;
+  color: antiquewhite;
+  font-family: "Courier New", Courier, monospace;
+}

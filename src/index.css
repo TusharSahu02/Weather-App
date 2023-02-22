@@ -1,0 +1,29 @@
+body {
+  background-image: url(./images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.Center{
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+.footer{
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  width: 60vw;
+
+}
+
+.footer p{
+  font-size: 1.5rem;
+  color: aliceblue;
+  font-family: 'Courier New', Courier, monospace;
+}
+.footer a{
+  color:white;
+  text-decoration: none;
+}
