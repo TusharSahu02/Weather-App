@@ -10,15 +10,10 @@ function App() {
       <SearchWeather />
       <div className="Center">
         <div className="footer">
-          <p>
-            {" "}
-            <a href="www.linkedin.com/in/tushar-sahu-buddy">
+          <p>         
               Deployed by :Tushar Sahu
-            </a>
           </p>
-          <p>
-            <a href=" "> Repo link: Github </a>
-          </p>
+          
         </div>
       </div>
     </>
