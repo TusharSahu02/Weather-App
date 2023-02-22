@@ -4,7 +4,7 @@ import "./index.css";
 function App() {
   useEffect(() => {
     // getting users current location
-  }, [])
+  }, []);
   return (
     <>
       <SearchWeather />
@@ -17,7 +17,7 @@ function App() {
             </a>
           </p>
           <p>
-            <a href="https://github.com/TusharSahu02/Weather-App"> Repo link: Github </a>
+            <a href=" "> Repo link: Github </a>
           </p>
         </div>
       </div>
