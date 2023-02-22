@@ -18,7 +18,7 @@ In this weather app i used <https://openweathermap.org/> api to fetch data and a
 
 LinkedIn : www.linkedin.com/in/tushar-sahu-buddy
 
-Deployed link : 
+Deployed link : https://weather-app-tushar.vercel.app/
 
 
 ## Setup
